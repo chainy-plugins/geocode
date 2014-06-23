@@ -1,7 +1,7 @@
 {
-  "title": "Geocode action for [ChainyJS](http://chainy.bevry.me)",
+  "title": "Geocode action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-geocode",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chainy action that replaces the chain's data of a location like \"Sydney, Australia\" with that of the location's longitude and latitude coordinates in the format of [long, lat]",
   "homepage": "https://github.com/chainy-plugins/geocode",
   "keywords": [
@@ -30,7 +30,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/geocode/issues"
   },
@@ -41,24 +43,20 @@
   "engines": {
     "node": ">=0.4"
   },
-  "dependencies": {
-    "feedr": "~2.9.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "chainy-plugin-set": "*",
-    "chainy-plugin-feed": "*",
-    "chainy-plugin-swap": "*",
-    "chainy-core": "*"
+    "chainy-plugin-set": "1",
+    "chainy-plugin-feed": "1",
+    "chainy-core": "1"
   },
   "devDependencies": {
-    "chainy-plugin-set": "*",
-    "chainy-plugin-feed": "*",
-    "chainy-plugin-swap": "*",
-    "chainy-core": "*",
-    "joe": "~1.4.0",
+    "chainy-plugin-set": "1",
+    "chainy-plugin-feed": "1",
+    "chainy-core": "1",
+    "joe": "~1.5.0",
     "joe-reporter-console": "~1.2.1",
     "chai": "~1.9.1",
-    "projectz": "~0.3.11"
+    "projectz": "~0.3.15"
   },
   "directories": {
     "test": "test"

@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# Geocode action for [ChainyJS](http://chainy.bevry.me)
+# Geocode action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -31,7 +31,7 @@ Chainy action that replaces the chain's data of a location like "Sydney, Austral
 
 
 ``` javascript
-require('chainy-core').create().require('set geocode log')
+require('chainy').create().require('set geocode log')
 	.set('Sydney, Australia')
 	.geocode()
 	.log()  // [151.059617, -33.838197]
@@ -51,7 +51,7 @@ require('chainy-core').create().require('set geocode log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-geocode')`
 - Install: `npm install --save chainy-plugin-geocode`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-geocode@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-geocode@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-geocode')`
@@ -99,8 +99,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-geocode/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/geocode/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-geocode/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
