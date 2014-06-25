@@ -51,7 +51,7 @@ require('chainy').create().require('set geocode log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-geocode')`
 - Install: `npm install --save chainy-plugin-geocode`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-geocode@1.0.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-geocode@1.0.1`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-geocode')`

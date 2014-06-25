@@ -1,7 +1,7 @@
 {
   "title": "Geocode action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-geocode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chainy action that replaces the chain's data of a location like \"Sydney, Australia\" with that of the location's longitude and latitude coordinates in the format of [long, lat]",
   "homepage": "https://github.com/chainy-plugins/geocode",
   "keywords": [
@@ -47,7 +47,7 @@
   "peerDependencies": {
     "chainy-plugin-set": "1",
     "chainy-plugin-feed": "1",
-    "chainy-core": "1"
+    "chainy-core": "^1.2.0"
   },
   "devDependencies": {
     "chainy-plugin-set": "1",
